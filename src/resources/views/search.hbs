@@ -1,0 +1,25 @@
+<div class="mt-4">
+  <form method="POST">
+    <div class="mb-3">
+      <label for="search-input" class="form-label">Key</label>
+      <input
+        type="text"
+        name="q"
+        class="form-control"
+        id="search-input"
+        placeholder="Enter something..."
+      />
+    </div>
+
+    <div class="mb-3">
+      <label for="gender-select" class="form-label">Giới tính</label>
+      <select class="form-select" name="gender" id="gender-select">
+        <option selected>-- Chọn giới tính ---</option>
+        <option value="male">Nam</option>
+        <option value="female">Nữ</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+</div>
